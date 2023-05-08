@@ -58,8 +58,8 @@
 }
 
 .parallelogram-inner-left {
-    height: 97%;
-    width: 97%;
+    height: 97.5%;
+    width: 97.5%;
     background:
         #ffcd28;
     background-size: 20px, 100%;
@@ -84,8 +84,8 @@
 }
 
 .parallelogram-inner-right {
-    height: 97%;
-    width: 97%;
+    height: 98%;
+    width: 98%;
     background-color: white;
     position: absolute;
     top: 50%;
