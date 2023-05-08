@@ -30,6 +30,7 @@
     max-width: 1380px;
     width: auto;
     margin: auto;
+    margin-bottom: 0px;
     align-items: center;
 }
 
@@ -203,7 +204,6 @@ a,
 .our_game {
 
     height: 500px;
-    margin-top: 70px;
 }
 
 .game-color-text {
@@ -235,7 +235,6 @@ a,
 
 .our_engine {
     height: 600px;
-    margin-top: 70px;
 }
 
 .engine-text {
@@ -340,14 +339,6 @@ img {
     border: none !important;
 }
 
-.navbar-area {
-    width: auto;
-    height: 100%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
-    display: inline-flex;
-}
-
 button {
     border: 0;
     margin: 0;
@@ -427,39 +418,45 @@ button {
     width: 35px;
     height: auto;
     display: flex;
-justify-content: center;
-background-color: #ffffff;
-border-radius: 10px;
-margin-right: 8px;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-right: 8px;
 }
 
-html{ height:100%; }
-body { min-height:100%;  margin:0; }
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+}
 
 header {
-  height: 50px;
-  background: lightcyan;
+    height: 50px;
+    background: lightcyan;
 }
 
-main { 
-  height: 1%;
-  min-height: 780px;
+main {
+    height: 1%;
+    min-height: 780px;
 }
 
 footer {
-  height: 50px;
-  background: PapayaWhip;
+    height: 50px;
+    background: PapayaWhip;
 }
 
 /**** Trick: ****/
 
 body {
-  display: table;
-  width: 100%; 
+    display: table;
+    width: 100%;
 }
 
-body > footer {
-   display: table-row;
+body>footer {
+    display: table-row;
 }
 
 .footer-area {
@@ -477,8 +474,9 @@ body > footer {
     align-items: center;
     height: 100%;
     display: inline-flex;
-  
+
 }
+
 .logo-contact {
     text-align: center;
     display: flex;
@@ -494,7 +492,7 @@ body > footer {
     justify-content: space-between;
     align-items: center;
     display: inline-flex;
-    
+
 }
 
 .site-logobar ul {
@@ -520,11 +518,18 @@ body > footer {
 }
 
 .navbar-area {
-    width: auto;
-    height: 160px;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
+    width: 1140px;
+    height: 100px;
+
     display: inline-flex;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position:absolute;
+    top: 0px;
+    left: 470px;
 }
 
 .footer_logo {
@@ -544,7 +549,7 @@ body > footer {
 
 .footer-white-spacing {
     width: 20px;
-    
+
 }
 
 .box-try {
@@ -552,4 +557,19 @@ body > footer {
     width: 100px;
     background-color: aqua;
     display: inline-flex;
+}
+
+.contact-white-box {
+    height: 5px;
+}
+
+.heigh-limiter-contact-us {
+    max-height: 70px;
+}
+
+.carousel-item img {
+    position: relative;
+    top: 10px;
+    height: 440px;
+    width: auto;
 }
